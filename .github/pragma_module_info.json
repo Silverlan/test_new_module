@@ -1,7 +1,6 @@
 {
     "name": "Test Module",
     "module_name": "pr_test",
-    "module_type": "client",
     "install_directory": "modules/",
-    "release_directory": ""
+    "release_directory": "DEFAULT"
 }
