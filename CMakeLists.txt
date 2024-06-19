@@ -8,7 +8,7 @@ pr_add_library(${PROJ_NAME} SHARED)
 pr_add_dependency(${PROJ_NAME} shared TARGET PUBLIC)
 if("${MODULE_TYPE}" STREQUAL "client")
     pr_add_dependency(${PROJ_NAME} client TARGET PUBLIC)
-elif("${MODULE_TYPE}" STREQUAL "server")
+elseif("${MODULE_TYPE}" STREQUAL "server")
     pr_add_dependency(${PROJ_NAME} server TARGET PUBLIC)
 endif()
 
